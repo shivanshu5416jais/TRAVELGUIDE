@@ -1,0 +1,50 @@
+body{
+	background-image: linear-gradient(red,blue);
+ 
+}
+.navbar{
+	width: 100%;
+	height: 60px;
+	background-color:yellow;
+}
+.title{
+  width:50%;
+  height: 50px;
+  text-align: center;
+  float: left;
+}
+a{
+	width: 20%;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	border: 2px solid red;
+	border-radius: 5px;
+	background-color:blue;
+	float: right;
+}
+
+.form,.btn{
+	margin:auto;
+	width: 25%;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	background-color:yellow;
+	box-sizing: border-box;
+	border: 2px solid red;
+	font-size: 1.4vw;
+}
+.btn{
+	width: 30%;
+}
+.form-control{
+	width: 60%;
+ align-items: center;
+ align-content: center;
+}
+h1{
+	font-size: 2.5vw;
+}
