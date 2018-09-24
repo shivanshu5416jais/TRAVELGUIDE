@@ -6,6 +6,11 @@
   	header('Location:userpanel.php');
 
   }
+  else if(isset($_SESSION['admin']))
+  {
+    header('Location:adminpanel.php');
+
+  }
   $response='';
   if($_SERVER['REQUEST_METHOD']=='POST')
   {

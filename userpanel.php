@@ -37,7 +37,7 @@
 			  }
 			?>
 		</a></div>
-		<div class="nav-link logIn"><a href="logout1.php"><h3>Log 1Out</h3></a> </div>
+		<div class="nav-link logIn"><a href="logout1.php"><h3>Log Out</h3></a> </div>
 		<form action="w.php" method="post">
 		<input type="text" placeholder="place" name="place">
 		<input type="submit" name="SUBBMIT" value="SUBMIT">

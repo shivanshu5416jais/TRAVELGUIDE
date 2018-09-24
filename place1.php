@@ -1,12 +1,13 @@
 <?php
 session_start();
-// if(!isset($_SESSION['user']))
-//  {
-//  	header('Location:index.php');
-//  }
-require('connection.php');
+if(!isset($_SESSION['user']))
+ {
+ 	header('Location:index.php');
+ }
+else{
 echo "WELCOME TO place";
 echo $_SESSION['id'];
+}
 ?>
 <!DOCTYPE html>
 <html>

@@ -1,11 +1,11 @@
 body{
-	background-image: linear-gradient(red,blue);
+	background-color: #97b9ed;
  
 }
 .navbar{
 	width: 100%;
 	height: 60px;
-	background-color:yellow;
+	background-color:#a4cce8;
 }
 .title{
   width:50%;
@@ -22,7 +22,7 @@ a{
 	display: inline-block;
 	border: 2px solid red;
 	border-radius: 5px;
-	background-color:blue;
+	background-color:#bbc2cc;
 	float: right;
 }
 
@@ -32,7 +32,7 @@ a{
 	align-items: center;
 	align-content: center;
 	text-align: center;
-	background-color:yellow;
+	background-color:#bbc2cc;
 	box-sizing: border-box;
 	border: 2px solid red;
 	font-size: 1.4vw;

@@ -28,6 +28,15 @@
  			header('Location:userpanel.php');
 
  		}
+ 		$query="SELECT `email`,`password` FROM `admin` WHERE `email`='$email' AND `password`='$password'";
+ 		$result=mysqli_query($conn,$query);
+ 		if(mysqli_num_rows($result)>0)
+ 		{
+ 			$row=mysqli_fetch_assoc($result);
+ 			$_SESSION['admin']=$row['email'];
+ 			header('Location:../travelguides/guide/adminpanel.php');
+
+ 		}
  		else
  		{
  			$response='Email or Password is wrong';
